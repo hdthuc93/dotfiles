@@ -70,7 +70,7 @@ Delete this rule if you want separators between background tabs */
 /* tab line - adjust color & size, default #0a84ff 2px */
 .tab-line {
 	/*background-color: #0a84ff !important;*/
-	height: 1px !important;
+	height: 0px !important;
 }
 
 
@@ -78,7 +78,6 @@ Delete this rule if you want separators between background tabs */
 /* Menu */
 #appMenu-fxa-container,                    /* Sign in to Sync */
 #appMenu-fxa-container+toolbarseparator,
-/* #appMenuRestoreLastSession, */
 #appMenu-zoom-controls,
 #appMenu-zoom-controls+toolbarseparator,
 #appMenu-edit-controls,
@@ -86,6 +85,9 @@ Delete this rule if you want separators between background tabs */
 #appMenu-open-file-button,
 #appMenu-save-file-button,
 #appMenu-find-button,
+
+/* Private browsing icon */
+#TabsToolbar .private-browsing-indicator,
 
 /* URL Bar */
 #pageActionButton,
